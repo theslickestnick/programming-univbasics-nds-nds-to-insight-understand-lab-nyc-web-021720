@@ -9,11 +9,11 @@ require 'directors_database'
 
 # pretty_print_nds(directors_database)
 
-require "pry"
+
 def print_first_directors_movie_titles
     row_index = 0
   while row_index < directors_database["Stephen Spielberg"][:movies].length do
     puts :title.to_s
-    binding.pry
+
   end
 end
